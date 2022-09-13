@@ -9,7 +9,7 @@
 
 li {
   text-align: center;
-  padding: 10px 12px;  
+  padding: 10px 14px;  
 }
 
 a {
@@ -21,5 +21,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-
