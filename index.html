@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>google-clone</title> 
+  <title>google-clone</title>
   <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/header.css"> 
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/searchbar.css">
 </head>
-<body>  
+
+<body>
   <header>
     <nav>
       <ul class="nav_links">
         <li>
-          <a href="#">Gmail</a>
+          <a href="#">About</a>
         </li>
         <li>
-          <a href="#">Images</a>
+          <a href="#">Store</a>
+        </li>
+      </ul>
+      <ul class="nav_links">
+        <li>
+          <a class="small_text" href="#">Gmail</a>
+        </li>
+        <li>
+          <a class="small_text" href="#">Images</a>
         </li>
         <li class="app_container">
           <img src="icons/google-app.svg" class="google_app" alt="google-app">
           <div class="tooltip">Google apps</div>
         </li>
-        <li class="pic_container" >
+        <li class="pic_container">
           <img src="icons/google-acc.png" class="profile_pic" alt="google-account">
-          <div class="tooltip">Google Account </div>
+          <div class="tooltip">
+            <p>Google Account <span style="white-space: pre-line" class="text_color"> Tran Tuong Vy
+                tuongy.tran@gmail.com</span> </p>
+          </div>
         </li>
       </ul>
     </nav>
   </header>
   <section class="search_container">
     <img class="google_logo" src="icons/googlelogo_color_272x92dp.png" alt="Google-logo">
-    <input class="search_bar" type="text" placeholder="Search Google or type a URL">
+    <div>
+      <input class="search_bar" type="text" placeholder="Search Google or type a URL">
+      <img class="search_icon" src="icons/search.svg" alt="search">
+      <img class="voice-search_icon" src="icons/keyboard_voice.svg" alt="Voice-search">
+    </div>
+    <div class="button">
+      <button type="button">Google Search</button>
+      <button type="button">I'm Feeling Lucky</button>
+    </div>
   </section>
 </body>
+
 </html>
