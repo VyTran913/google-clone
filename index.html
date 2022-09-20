@@ -9,50 +9,75 @@
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/searchbar.css">
+  <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
-  <nav>
-    <ul class="nav_links">
-      <li>
-        <a href="#">About</a>
-      </li>
-      <li>
-        <a href="#">Store</a>
-      </li>
-    </ul>
-    <ul class="nav_links">
-      <li>
-        <a class="small_text" href="#">Gmail</a>
-      </li>
-      <li>
-        <a class="small_text" href="#">Images</a>
-      </li>
-      <li class="app_container">
-        <img src="icons/google-app.svg" class="google_app" alt="google-app">
-        <div class="tooltip">Google apps</div>
-      </li>
-      <li class="pic_container">
-        <img src="icons/google-acc.png" class="profile_pic" alt="google-account">
-        <div class="tooltip">
-          <p>Google Account <span style="white-space: pre-line" class="text_color"> Tran Tuong Vy
-              tuongy.tran@gmail.com</span> </p>
-        </div>
-      </li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <ul class="nav_links">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Store</a>
+        </li>
+      </ul>
+      <ul class="nav_links">
+        <li>
+          <a class="small_text" href="#">Gmail</a>
+        </li>
+        <li>
+          <a class="small_text" href="#">Images</a>
+        </li>
+        <li class="app_container">
+          <img src="icons/google-app.svg" class="google_app" alt="google-app">
+          <div class="tooltip">Google apps</div>
+        </li>
+        <li class="pic_container">
+          <img src="icons/google-acc.png" class="profile_pic" alt="google-account">
+          <div class="tooltip">
+            <p>Google Account <span style="white-space: pre-line" class="text_color"> Tran Tuong Vy
+                tuongy.tran@gmail.com</span> </p>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <div class="search_container">
-    <img class="google_logo" src="icons/googlelogo_color_272x92dp.png" alt="Google-logo">
+    <img class="google_img" src="icons/googlelogo_color_272x92dp.png" alt="Google-logo">
     <div class="search_bar--wrapper">
       <input class="search_bar" type="text" placeholder="Search Google or type a URL">
       <img class="search_icon" src="icons/search.svg" alt="search">
       <img class="voice-search_icon" src="icons/keyboard_voice.svg" alt="Voice-search">
     </div>
-    <div class="button">
+    <div class="buttons">
       <button type="button">Google Search</button>
       <button type="button" class="lucky_button">I'm Feeling Lucky</button>
     </div>
   </div>
 </body>
+<footer>
+  <div class="footer_row">
+    <ul class="left_section">
+      <li>
+        <a href="#">Advertising </a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
+      </li>
+    </ul>
+    <div class="middle_section">
+      <img class="leaf_logo" src="icons/leaf.png" alt="Carbon">
+      <a href="#">Carbon neutral since 2007</a>
+    </div>
+    <ul class="right_section">
+      <li>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+      </li>
+    </ul>
+  </div>
+</footer>
 
 </html>

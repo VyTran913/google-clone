@@ -1,15 +1,12 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 10px;
-  height: 60px;
 }
 
 .nav_links {
   display: flex;
   align-items: center;
   padding: 10px 14px;
-  list-style-type: none;
 }
 
 .app_container {

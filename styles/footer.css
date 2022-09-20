@@ -1,0 +1,26 @@
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.footer_row {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.left_section a {
+  padding: 12px 14px;
+}
+
+.right_section a {
+  padding: 12px 14px;
+}
+
+.leaf_logo {
+  width: 12px;
+}
